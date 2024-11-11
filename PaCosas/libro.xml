@@ -1,0 +1,13 @@
+<!DOCTYPE biblioteca [
+        <!ELEMENT biblioteca (libro+)>
+        <!ELEMENT libro (titulo, autor)>
+        <!ELEMENT titulo (#PCDATA)>
+        <!ELEMENT autor (#PCDATA)>
+        ]>
+<biblioteca>
+    <libro>
+        <titulo></titulo>
+        <autor></autor>
+    </libro>
+
+</biblioteca>
